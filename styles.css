@@ -1,0 +1,58 @@
+h1{
+	font-family: Helvetica;
+	font-size: 4vw;
+	background-color: beige;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: inline-block-center;
+	text-align: center;
+	border-radius: 5%;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 2vw;
+	background-color: beige;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 79%;
+	display: inline-block-center;
+	text-align: center;
+	border-radius: 5%;
+}
+
+body {
+	background-image:url('sleep.gif');
+	background-repeat:repeat;
+}
+
+form {
+	padding-left: 6%;
+}
+
+input {
+	font-family: Helvetica;
+	font-size: 1.5vw;
+	padding: 1%;
+	padding-right: 4%;
+	padding-left: 4%;	
+}
+
+#button1 {
+	background-color: crimson;
+}
+
+#button2 {
+	background-color: darkseagreen;
+}
+
+#button3 {
+	background-color: cornflowerblue;
+}
+
+#button4 {
+	background-color: khaki;
+}
