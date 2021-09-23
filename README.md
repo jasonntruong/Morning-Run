@@ -1,7 +1,7 @@
 # Morning Run
 
 # What is it?
-It's a web server (deployed on my Rasp Pi) and 4 web clients/ESP-32 microcontrollers (check out microcontrollers.png) system.
+It's a web server (deployed on my Rasp Pi) and 4 web client/ESP-32 microcontroller (check out microcontrollers.png) system developed using C++, PHP, Python, SQL, HTML, CSS, HTTP Server (deployed on Rasp Pi), Arduino, and ESP32 microcontrollers.
 
 # Why?
 These days I slam the snooze button 5-10 times before waking up. I needed something that would wake me up after one alarm...so I made "Morning Run".
