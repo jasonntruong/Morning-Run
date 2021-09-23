@@ -1,9 +1,11 @@
-# Morning-Run
-
-These days I slam the snooze button 5-10 times before waking up. I needed something that would wake me up after one alarm...so I made "Morning Run"
+# Morning Run
 
 # What is it?
 It's a web server (deployed on my Rasp Pi) and 4 web clients/ESP-32 microcontrollers (check out microcontrollers.png) system.
+
+# Why?
+These days I slam the snooze button 5-10 times before waking up. I needed something that would wake me up after one alarm...so I made "Morning Run".
+I also wanted to try out more advanced projects that include hardware (microcontrollers) and learn more Arduino / C++.
 
 # How does it work?
 Each of the ESP-32s, which are scattered across my room, are responsible for sending GET requests to the web server for each number from 1-4 when the button is clicked. Every morning, the web server plays an alarm (alarm.mp3) and randomnly chooses a number from 1-4. If the GET request matches the randomnly chosen number, then the alarm will turn off.
